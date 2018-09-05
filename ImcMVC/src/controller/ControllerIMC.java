@@ -46,14 +46,14 @@ public class ControllerIMC implements ActionListener {
 
                     viewIMC.jl_resultado.setText(String.valueOf(modelIMC.getCalcular()));
                 } else {
-                    viewIMC.jl_respuesta.setText("Valor Fuera del rango");
+                    viewIMC.jl_respuesta.setText("Estatura Fuera del rango");
 
                 }
             } else {
-                viewIMC.jl_respuesta.setText("Valor Fuera del rango");
+                viewIMC.jl_respuesta.setText("Peso Fuera del rango");
             }
         } catch (Exception ex) {
-            viewIMC.jl_respuesta.setText("Error" + ex.getMessage());
+            viewIMC.jl_respuesta.setText("Error!! " + ex.getMessage());
         }
     }
 
