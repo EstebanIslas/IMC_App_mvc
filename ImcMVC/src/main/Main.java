@@ -1,6 +1,6 @@
 /*
  * Aplicación que mide tu indice de masa corporal y determina que tipo de peso tienes
- * Islas Santos Esteban TIC 32
+ * Islas Santos Esteban TIC 42
  * Universidad Tecnológica de Tulancingo.
  */
 package main;
